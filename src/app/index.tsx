@@ -1,4 +1,6 @@
-function App() {
+import { withProviders } from './providers';
+
+function WrappedApp() {
   return (
     <>
       <div>HU</div>
@@ -6,4 +8,4 @@ function App() {
   );
 }
 
-export default App;
+export const App = withProviders(WrappedApp);
