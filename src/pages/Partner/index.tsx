@@ -1,3 +1,10 @@
+import { Header } from '../../widgets';
+
 export const PartnerPage = () => {
-  return <div>Partner</div>;
+  return (
+    <div>
+      <Header />
+      Partner
+    </div>
+  );
 };

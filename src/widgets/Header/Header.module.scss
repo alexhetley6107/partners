@@ -1,0 +1,19 @@
+.header {
+  background-color: var(--primary-color);
+  position: fixed;
+  width: 100vw;
+  padding: 1rem 0;
+  color: var(--light-color);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.space {
+  justify-content: space-between;
+}
+.end {
+  justify-content: flex-end;
+}
