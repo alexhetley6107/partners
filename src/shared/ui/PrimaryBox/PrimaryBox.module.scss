@@ -1,0 +1,14 @@
+.box {
+  min-height: 150px;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--light-color);
+  padding: 1rem;
+}
+
+p {
+  max-width: 700px;
+  text-align: center;
+}

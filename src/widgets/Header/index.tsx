@@ -10,15 +10,14 @@ export const Header = () => {
   const isMainPage = pathname === ROUTE.MAIN;
 
   const navigateToMain = () => navigate(ROUTE.MAIN);
+  const logOut = () => navigate(ROUTE.REGISTER);
 
   return (
     <header className={s.header}>
-      <div className="container">
-        <div className={`${s.flex} ${isMainPage ? s.end : s.space}`}>
-          {!isMainPage && <Button onClick={navigateToMain}>Назад</Button>}
+      <div className={`${s.flex} ${isMainPage ? s.end : s.space}`}>
+        {!isMainPage && <Button onClick={navigateToMain}>Назад</Button>}
 
-          <Button>Выход</Button>
-        </div>
+        <Button onClick={logOut}>Выход</Button>
       </div>
     </header>
   );

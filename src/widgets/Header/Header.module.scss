@@ -1,8 +1,10 @@
 .header {
   background-color: var(--primary-color);
-  position: fixed;
+  position: sticky;
+  top: 0;
+  left: 0;
   width: 100vw;
-  padding: 1rem 0;
+  padding: 1rem 3rem;
   color: var(--light-color);
 }
 
